@@ -1,0 +1,84 @@
+<?xml version="1.0"?>
+<svg xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:svg="http://www.w3.org/2000/svg" id="svg5495" viewBox="0 0 680 855" version="1.1">
+  <g id="layer1" transform="translate(0 -197.36)">
+    <path id="path8098" stroke="#030000" stroke-width="3" fill="#fff" d="m49.223 203.13v827.94h584.59c23.015 0 41.47-18.54 41.47-41.555v-744.83c0-23.015-18.455-41.555-41.47-41.555h-584.6z"/>
+    <path id="path6790" stroke="#030000" fill="none" d="m46.99 207.58v827.94h584.59c23.015 0 41.47-18.54 41.47-41.555v-744.83c0-23.015-18.455-41.555-41.47-41.555h-584.6z"/>
+    <path id="path6792" stroke="#030000" fill="none" d="m44.694 209.59v827.94h584.59c23.015 0 41.47-18.54 41.47-41.555v-744.83c0-23.015-18.455-41.555-41.47-41.555h-584.6z"/>
+    <path id="path6794" stroke="#030000" fill="none" d="m42.398 211.6v827.94h584.59c23.015 0 41.47-18.54 41.47-41.555v-744.83c0-23.015-18.455-41.555-41.47-41.555h-584.6z"/>
+    <path id="path6796" stroke="#030000" fill="none" d="m40.101 213.61v827.94h584.59c23.015 0 41.47-18.54 41.47-41.555v-744.83c0-23.015-18.455-41.555-41.47-41.555h-584.6z"/>
+    <path id="rect8093" stroke-linejoin="round" d="m34.387 217.97v827.94h584.59c23.015 0 41.47-18.54 41.47-41.555v-744.83c0-23.015-18.455-41.555-41.47-41.555h-584.6z" stroke="#030000" stroke-width="3" fill="#008000"/>
+    <g id="g6838">
+      <path id="path5919" stroke-width="5.4835" stroke="#000" stroke-linecap="round" d="m32.23 255.94c-16.179 0-29.287 7.1041-29.287 15.865 0 8.7607 13.108 15.865 29.287 15.865 14.178 0 26.014-5.4532 28.723-12.698h-6.0252c-2.602 5.4757-11.777 9.5319-22.698 9.5319-12.943 0-23.427-5.6898-23.427-12.698 0-7.0086 10.484-12.682 23.427-12.682 0.09293 0 0.18241-0.00052 0.27513 0v-3.1827c-0.0925-0.00046-0.18236 0-0.27513 0z"/>
+      <use id="use6435" xlink:href="#path5919" transform="translate(0 25.137)" height="1052.3622" width="744.09448" y="0" x="0"/>
+      <use id="use6437" xlink:href="#path5919" transform="translate(0 50.275)" height="1052.3622" width="744.09448" y="0" x="0"/>
+      <use id="use6439" xlink:href="#path5919" transform="translate(0 75.413)" height="1052.3622" width="744.09448" y="0" x="0"/>
+      <use id="use6441" xlink:href="#path5919" transform="translate(0 100.55)" height="1052.3622" width="744.09448" y="0" x="0"/>
+      <use id="use6443" xlink:href="#path5919" transform="translate(0 125.69)" height="1052.3622" width="744.09448" y="0" x="0"/>
+      <use id="use6445" xlink:href="#path5919" transform="translate(0 150.83)" height="1052.3622" width="744.09448" y="0" x="0"/>
+      <use id="use6447" xlink:href="#path5919" transform="translate(0 175.96)" height="1052.3622" width="744.09448" y="0" x="0"/>
+      <use id="use6449" xlink:href="#path5919" transform="translate(0 201.1)" height="1052.3622" width="744.09448" y="0" x="0"/>
+      <use id="use6451" xlink:href="#path5919" transform="translate(0 226.24)" height="1052.3622" width="744.09448" y="0" x="0"/>
+      <use id="use6453" xlink:href="#path5919" transform="translate(0 251.38)" height="1052.3622" width="744.09448" y="0" x="0"/>
+      <use id="use6455" xlink:href="#path5919" transform="translate(0 276.51)" height="1052.3622" width="744.09448" y="0" x="0"/>
+      <use id="use6457" xlink:href="#path5919" transform="translate(0 301.65)" height="1052.3622" width="744.09448" y="0" x="0"/>
+      <use id="use6459" xlink:href="#path5919" transform="translate(0 326.79)" height="1052.3622" width="744.09448" y="0" x="0"/>
+      <use id="use6461" xlink:href="#path5919" transform="translate(0 351.93)" height="1052.3622" width="744.09448" y="0" x="0"/>
+      <use id="use6463" xlink:href="#path5919" transform="translate(0 377.06)" height="1052.3622" width="744.09448" y="0" x="0"/>
+      <use id="use6465" xlink:href="#path5919" transform="translate(0 402.2)" height="1052.3622" width="744.09448" y="0" x="0"/>
+      <use id="use6467" xlink:href="#path5919" transform="translate(0 427.34)" height="1052.3622" width="744.09448" y="0" x="0"/>
+      <use id="use6469" xlink:href="#path5919" transform="translate(0 452.48)" height="1052.3622" width="744.09448" y="0" x="0"/>
+      <use id="use6471" xlink:href="#path5919" transform="translate(0 477.61)" height="1052.3622" width="744.09448" y="0" x="0"/>
+      <use id="use6473" xlink:href="#path5919" transform="translate(0 502.75)" height="1052.3622" width="744.09448" y="0" x="0"/>
+      <use id="use6475" xlink:href="#path5919" transform="translate(0 527.89)" height="1052.3622" width="744.09448" y="0" x="0"/>
+      <use id="use6477" xlink:href="#path5919" transform="translate(0 553.03)" height="1052.3622" width="744.09448" y="0" x="0"/>
+      <use id="use6479" xlink:href="#path5919" transform="translate(0 578.16)" height="1052.3622" width="744.09448" y="0" x="0"/>
+      <use id="use6481" xlink:href="#path5919" transform="translate(0 628.44)" height="1052.3622" width="744.09448" y="0" x="0"/>
+      <use id="use6483" xlink:href="#path5919" transform="translate(0 653.58)" height="1052.3622" width="744.09448" y="0" x="0"/>
+      <use id="use6485" xlink:href="#path5919" transform="translate(0 603.3)" height="1052.3622" width="744.09448" y="0" x="0"/>
+      <use id="use6487" xlink:href="#path5919" transform="translate(0 678.71)" height="1052.3622" width="744.09448" y="0" x="0"/>
+      <use id="use6489" xlink:href="#path5919" transform="translate(0 703.85)" height="1052.3622" width="744.09448" y="0" x="0"/>
+      <use id="use6491" xlink:href="#path5919" transform="translate(0 728.99)" height="1052.3622" width="744.09448" y="0" x="0"/>
+      <use id="use6493" xlink:href="#path5919" transform="translate(0 754.13)" height="1052.3622" width="744.09448" y="0" x="0"/>
+      <path id="path6559" stroke-width="5.4835" stroke="#000" stroke-linecap="round" d="m32.23 230.8c-16.179 0-29.287 7.1041-29.287 15.865 0 8.7607 13.108 15.865 29.287 15.865 14.178 0 26.014-5.4532 28.723-12.698h-6.0252c-2.602 5.4757-11.777 9.5319-22.698 9.5319-12.943 0-23.427-5.6898-23.427-12.698 0-7.0086 10.484-12.682 23.427-12.682 0.09293 0 0.18241-0.00052 0.27513 0v-3.1827c-0.0925-0.00047-0.18236 0-0.27513 0z"/>
+      <path id="path6561" stroke-width="5.4835" stroke="#000" stroke-linecap="round" d="m40.258 212.8c2.6954-1.4191-5.8224-8.8062-15.825-7.3643s-21.49 11.713-21.49 16.093c0 8.7607 13.108 15.865 29.287 15.865 14.178 0 26.014-5.4532 28.723-12.698h-6.0252c-2.602 5.4757-11.777 9.5319-22.698 9.5319-12.943 0-23.427-5.6898-23.427-12.698 0-3.5043 10.953-12.27 17.199-12.781 6.2458-0.51047 7.7845 7.2343 14.256 7.2343 0.04647 0 0.09207-0.00013 0.13767-0.00019 0.0456-0.00007 0.0912-0.00007 0.13752 0.00019v-3.1828c0.07547 0.32413-0.01443 0.33494-0.11184 0.25931-0.09784-0.0756-0.20438-0.23769-0.16332-0.25931z"/>
+    </g>
+    <rect id="rect8100" stroke-linejoin="round" ry="41.543" height="157.27" width="275.96" stroke="#030000" y="431.66" x="212.41" stroke-width="9.0292" fill="#fff"/>
+  </g>
+  <metadata>
+    <rdf:RDF>
+      <cc:Work>
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+        <cc:license rdf:resource="http://creativecommons.org/licenses/publicdomain/"/>
+        <dc:publisher>
+          <cc:Agent rdf:about="http://openclipart.org/">
+            <dc:title>Openclipart</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+        <dc:title>spiral notebook 2</dc:title>
+        <dc:date>2010-09-18T00:15:35</dc:date>
+        <dc:description>A spiral notebook</dc:description>
+        <dc:source>http://openclipart.org/detail/85273/spiral-notebook-2-by-snifty</dc:source>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>snifty</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>clip art</rdf:li>
+            <rdf:li>clipart</rdf:li>
+            <rdf:li>notebook</rdf:li>
+            <rdf:li>office</rdf:li>
+            <rdf:li>writing</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+      </cc:Work>
+      <cc:License rdf:about="http://creativecommons.org/licenses/publicdomain/">
+        <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
+        <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
+        <cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+</svg>

@@ -1,0 +1,43 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+
+    <link rel="stylesheet" href="content/bootstrap.min.css" />
+    <link rel="stylesheet" href="content/style.css?v=1.3" />
+    <script src="script/global.js"></script>
+
+    <script data-main="script/match" src="script/require.js"></script>
+    <meta charset="utf-8" />
+    <title>Match Words</title>
+
+</head>
+<body class="match">
+    <header class="no-print"><h1>Match Words</h1></header>
+    <div class="navbar">
+        <a href="index.html">Home</a>
+        <div id="language" class="nav-item"></div>
+    </div>
+    <div class="inputs">
+        <div class="tabbable no-print">
+            <ul class="nav nav-tabs">
+                <li class="nav-item">
+                    <a id="matchImagesNav" data-toggle="tab" class="nav-link" href="#matchImage">Match image to word</a>
+                </li>
+            </ul>
+        </div>
+        <div class="tab-content">
+            <div class="active tab-pane box" id="matchImage">
+                <div class="form-group row no-print">
+                    <div class="col-sm-8 no-print">
+                        <button class="btn btn-primary form-control" type="button" id="loadMatchImage">New game</button>
+                    </div>
+                    <div id="output1" class="match-output">
+                        <h2 id="title1"></h2>
+                        <div id="preview1"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

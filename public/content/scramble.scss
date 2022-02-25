@@ -1,0 +1,103 @@
+﻿
+.scramble h1, .scramble h4 {
+    color: #EC4A9A;
+}
+
+
+.scramble-output {
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 50px;
+}
+
+.letter-box {
+    width: 50px;
+    height: 50px;
+}
+
+.scramble-item {
+    width: 420px;
+    display: block;
+    text-align: center;
+    border: 4px dotted #BB7AA3;
+    margin: 10px;
+    margin-bottom: 12px;
+    page-break-after: always;
+}
+
+.item-svg-bottom {
+    height: 50px;
+    display: inline-block;
+    margin-bottom: 15px;
+}
+
+.item-svg-result {
+    display: block;
+    margin: auto;
+}
+
+svg .no {
+    cursor: pointer;
+}
+
+svg.item-svg-top circle {
+    fill: #9a8b8b;
+    stroke: #565656;
+    stroke-width: 2;
+}
+
+svg.item-svg-bottom rect {
+    fill: #ffd8ec;
+    /* stroke: #FFEB3B; */
+    /* fill: #986f6f; */
+    stroke: #565656;
+    cursor: pointer;
+}
+
+.item-svg-top text {
+    fill: #1D5675;
+    stroke: #1D5675;
+    font-family: Comic Sans MS;
+    font-size: 30px;
+    text-align: center;
+    text-anchor: middle;
+}
+
+.item-svg-bottom text {
+    fill: #1D5675;
+    stroke: #1D5675;
+    font-family: Comic Sans MS;
+    font-size: 30px;
+    text-align: center;
+    cursor: pointer;
+    text-anchor: middle;
+}
+
+.item-svg-top text.available {
+    cursor: pointer;
+}
+
+svg.item-svg-top circle.available {
+    fill: #ec4a9ab3;
+    cursor: pointer;
+}
+
+svg.item-svg-bottom rect.available {
+    fill: #F1F2F3;
+    cursor: default;
+}
+
+
+.card a:hover {
+    text-decoration: none;
+}
+
+.card {
+    padding: 10px;
+}
+
+.card-outer {
+    min-width: 300px;
+}

@@ -1,0 +1,97 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+
+
+    <link rel="stylesheet" href="content/bootstrap.css" />
+    <link rel="stylesheet" href="content/style.css?v=1.4" />
+    <script src="script/global.js"></script>
+    <script data-main="script/wordsearch" src="script/require.js"></script>
+
+    <meta charset="utf-8" />
+    <title>
+        Word Search
+    </title>
+</head>
+<body>
+    <header>
+        <h1>Word Search</h1>
+    </header>
+    <div class="navbar no-print">
+        <a href="index.html">Home</a>
+        <div id="language" class="nav-item"></div>
+    </div>
+
+    <div class="inputs no-print">
+        <div class="tabbable">
+            <ul class="nav nav-tabs">
+                <li class="nav-item">
+                    <a id="bySubject" data-toggle="tab" class="nav-link" href="#subject">By Subject</a>
+                </li>
+                <li class="nav-item">
+                    <a id="createOwn" data-toggle="tab" class="nav-link" href="#createyourown">Create your own</a>
+                </li>
+            </ul>
+        </div>
+        <div class="tab-content">
+            <div class="active tab-pane box right-box" id="subject">
+                <div class="form-group row ">
+                    <label class="col-sm-2 col-form-label">Load existing:</label>
+                    <div class="col-sm-4">
+                        <select class="form-control" id="categoriesInput" style=""></select>
+                    </div>
+                    <div class="col-sm-4">
+                        <button class="btn btn-primary" type="button" id="loadexisting">Load</button>
+                    </div>
+                </div>
+            </div>
+            <div id="createyourown" class="tab-pane box left-box">
+                <div class="form-group row">
+                    <label class="col-sm-1 col-form-label">Title:</label>
+                    <div class="col-sm-6">
+                        <input class="form-control" id="titleInput" placeholder="Title" />
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label class="col-sm-1 col-form-label">Words:</label>
+                    <div class="col-sm-6">
+                        <textarea id="wordsInput" class="form-control" placeholder="Word per line"></textarea>
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label class="col-sm-1 col-form-label">Grid size:</label>
+                    <div class="col-sm-6">
+                        <input type="number" class="form-control" id="gridSizeInput" min="5" max="30" value="10" />
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <button class="btn btn-primary form-control" type="button" id="generate">Generate</button>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="form-group">
+                    <div class="form-check">
+                        <input type="checkbox" class="form-check-input" id="showAnswers" />
+                        <label class="form-check-label" for="showAnswers">Show answers</label>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="output" id="output">
+        <h2 id="title"></h2>
+        <div id="preview">
+            <svg version="1.1" id="previewSvg" x="0px" y="0px" xmlns="http://www.w3.org/2000/svg" xmlns: xlink="http://www.w3.org/1999/xlink" />
+        </div>
+
+        <div>
+            <div id="words"></div>
+        </div>
+
+        <div id="outputTheme"></div>
+    </div>
+</body>
+</html>

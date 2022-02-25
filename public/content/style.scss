@@ -1,0 +1,345 @@
+
+@font-face {
+    font-family: "MyFont";
+    src: url("/res/shant.ttf");
+}
+
+body {
+    margin: auto;
+    font-family: TTNorms,Arial,sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+
+header{
+    text-align:center;
+    padding-top:15px;
+}
+h1 {
+    font-weight: 500;
+    font-size:50px;
+}
+h1,
+#title, h4 {
+    color: #029BC7;
+    text-transform:uppercase;
+}
+
+.coloring h1, .coloring h4 {
+    color: #59E015;
+}
+.match h1, .match h4 {
+    color: #E554C7;
+}
+b#title {
+    text-transform: uppercase;
+}
+.inputs {
+    padding-left: 20px;
+    padding-top: 10px;
+    width: 98%;
+}
+#preview{
+   padding-top:20px; 
+}
+
+.letter {
+    text-anchor: middle;
+}
+
+#words {
+    /* width: 80%; */
+    padding-top: 20px;
+    font-size: 24px;
+    overflow-wrap: break-word;
+    display:flex;
+    flex-direction:row;
+    justify-content: space-around;
+}
+.word{
+    padding-left:15px;
+    white-space:nowrap;
+}
+.output {
+    padding: 50px;
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    margin-left:50px;
+}
+
+.result-show {
+    padding: 50px;
+    border: 6px double #338608;
+    text-align: center;
+    display: inline-block;
+    margin-left: 50px;
+}
+
+
+.box {
+    display: flex;
+    position: relative;
+    padding: 15px;
+    border: solid .2rem #f7f7f9;
+}
+
+.inputs button.form-control {
+    width: 200px;
+}
+
+.image-clip {
+    width: 150px;
+
+}
+div.image-clip {
+    background-image: url("/images/ball.jpg");
+    background-color: lightblue;
+    background-size: 100px;
+    height:150px;
+}
+.letter{
+    position:absolute;
+    pointer-events: none;
+}
+
+.nav-tabs .nav-link.active,
+.nav-tabs .nav-item.show .nav-link {
+    border-bottom: solid 2px #fff;
+}
+#outputTheme {
+    display: flex;
+    justify-content: space-around;
+}
+
+#canvasTheme
+{
+    padding-top:10px;
+    display:inline-block;
+}
+@import "scramble.scss";
+@import "math.scss";
+
+.navbar {
+    height: 48px;
+    line-height: 34px;
+    border-top: 1px solid rgba(0,0,0,.1);
+    border-bottom: 1px solid rgba(0,0,0,.1);
+    background-color: #fcfbf7;
+    box-shadow: none;
+    box-sizing: border-box;
+    padding: 0 10px;
+    margin-bottom:20px;
+    width: 100%;
+}
+
+
+.svg-color-letter {
+    float: left;
+}
+.svg-color-letter text {
+    fill: white;
+    stroke: black;
+    font-family: MyFont;
+    font-size: 290px;
+    background-color: transparent;
+    text-anchor: start;
+    line-height: 300px;
+    vertical-align: top;
+}
+.svg-color-text {
+    float: right;
+    /* width: 500px; */
+}
+.svg-color-sentence
+{
+    width:100%;
+}
+.svg-color-sentence text {
+    width: 100%;
+    fill: white;
+    stroke: gray;
+    font-family: "MyFont";
+    font-size: 30px;
+}
+
+.svg-color-word{
+    width:100%;
+    height: 1000px;
+}
+.svg-color-word text {
+    float: right;
+    fill: white;
+    stroke: black;
+    stroke-width: 1px;
+    font-family: "MyFont";
+    font-size: 180px;
+    text-align: center;
+    background-color: transparent;
+    text-anchor: start;
+    align-items: start;
+    line-height: 80px;
+}
+.svg-color-text text {
+    float: right;
+    fill: black;
+    stroke: gray;
+    stroke-width: 1px;
+    font-family: "MyFont";
+    font-size: 45px;
+    text-align: center;
+    background-color: transparent;
+    text-anchor: start;
+    align-items: start;
+    line-height: 80px;
+}
+.svg-write-text {
+    width: 100%;
+}
+.svg-write-text text {
+    fill: black;
+    stroke: gray;
+    font-size: 75px;
+    font-family:"MyFont";
+    stroke-width: 0px;
+    opacity: 1;
+}
+.svg-write-line {
+    stroke: gray;
+}
+
+.coloring-output
+{
+    margin: -3px -48px 0px -10px;
+}
+.svg-color-image {
+    height: 1000px;
+    width: 100%;
+    padding: 100px 10px 100px 10px;
+}
+.badge {
+    margin: 3px;
+}
+.page-break {
+    page-break-before:always;
+}
+
+
+/*tooltip Box*/
+.con-tooltip {
+    position: relative;
+    /* background: #F2D1C9; */
+    border-radius: 9px;
+    padding: 0 20px;
+    margin: 10px;
+    display: inline-block;
+    transition: all 0.3s ease-in-out;
+    cursor: default;
+    z-index: 2;
+}
+
+/*tooltip */
+.tooltip {
+    /* font-family:'MyFont'; */
+    visibility: hidden;
+    z-index: 4;
+    opacity: .40;
+    width: 150px;
+    padding: 0px 20px;
+    background: #BB7AA3;
+    color: #000000;
+    position: absolute;
+    top: -140%;
+    left: -25%;
+    border-radius: 9px;
+    font-size: 22px;
+    transform: translateY(9px);
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 0 3px rgba(56, 54, 54, 0.86);
+}
+
+
+/* tooltip  after*/
+.tooltip::after {
+    z-index: 3;
+    content: " ";
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 15px 11.5px 0px 16.5px;
+    border-color: #bb7aa3 transparent transparent transparent;
+    position: absolute;
+    left: 40%;
+}
+
+.con-tooltip:hover .tooltip {
+    visibility: visible;
+    transform: translateY(-10px);
+    opacity: 1;
+    transition: .3s linear;
+    animation:  1s ease-in-out infinite alternate;
+}
+
+
+/*hover ToolTip*/
+.left:hover {
+    transform: translateX(-6px);
+}
+
+.top:hover {
+    transform: translateY(-6px);
+}
+
+.bottom:hover {
+    transform: translateY(6px);
+}
+
+.right:hover {
+    transform: translateX(6px);
+}
+
+
+
+/*left*/
+
+.left .tooltip {
+    top: 30%;
+    left: -160%;
+}
+
+.left .tooltip::after {
+    top: 23%;
+    left: 93%;
+    transform: rotate(-94deg);
+}
+
+@media print {
+    .navbar, .no-print {
+        display: none;
+    }
+
+    .word {
+        white-space: nowrap;
+    }
+
+    #words {
+    }
+
+    body {
+        text-align: center;
+    }
+
+    .box{
+        border:none;
+        padding:0px;
+    }
+
+    .scramble svg text {
+        fill: black !important;
+        stroke: black !important;
+    }
+    .scramble svg circle, svg rect {
+        fill: white !important;
+        stroke: black !important;
+        stroke-width: 2;
+    }
+}

@@ -1,0 +1,81 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+
+    <link rel="stylesheet" href="content/bootstrap.min.css" />
+    <link rel="stylesheet" href="content/style.css" />
+    <script src="script/global.js"></script>
+
+    <script data-main="script/mathkid" src="script/require.js"></script>
+
+    <meta charset="utf-8" />
+    <title>Math</title>
+
+</head>
+<body class="math">
+    <header class="no-print">
+    <h1>
+        <span class="con">
+    <span class="con-tooltip left">
+        <img src="res/jelly-nelly.png" height="80px" title="Jelly Nelly"/>
+        <span class="tooltip left">Hi there!</span>
+    </span>
+        </span>
+    <span>Math</span>
+</h1>
+    </header>
+    
+    <div class="navbar">
+        <a href="index.html">Home</a>
+        <div id="language" class="nav-item"></div>
+    </div>
+    <div class="inputs no-print">
+        <div class="tabbable">
+            <ul class="nav nav-tabs">
+                <li class="nav-item">
+                    <a id="bySubjectnav" data-toggle="tab" class="nav-link" href="#subject">By Subject</a>
+                </li>
+                <li class="nav-item">
+                    <a id="myWordsnav" data-toggle="tab" class="nav-link" href="#mywords">My Words</a>
+                </li>
+            </ul>
+        </div>
+        <div class="tab-content">
+            <div class="active tab-pane box right-box" id="subject">
+                <div class="form-group row box">
+                    <label class="col-sm-2 col-form-label">Select category:</label>
+                    <div class="col-sm-4">
+                        <select class="form-control" id="mathinputs" style=""></select>
+                    </div>
+                    <div class="col-sm-4">
+                        <button class="btn btn-primary" type="button" id="selectCategory">Load</button>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane box right-box" id="mywords">
+                <div class="form-group row">
+                    <label class="col-sm-1 col-form-label">Word:</label>
+                    <div id="typeaheadHolder" class="col-sm-6"></div>
+                </div>
+                <div class="form-group row">
+                    <div class="col-sm-8">
+                        <button class="btn btn-primary form-control " type="button" id="loadone">Load next</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="output" class="math-output">
+        <h2 id="title"></h2>
+        <div id="preview"></div>
+
+    </div>
+</body>
+</html>
+<script>
+ 
+   
+    
+</script>
